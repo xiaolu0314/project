@@ -1,0 +1,35 @@
+*{margin: 0px;padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+div.box>div.main{width: 100%;height: 700px; /* background: orange; */ }
+div.box>div.main>div.title{width: 100%;height: 150px;/* background: blue; */overflow: hidden;}
+div.box>div.main>div.title>h2{height: 80px;line-height: 80px;text-align: center;font-family: 华文行楷;font-size: 35px;}
+div.box>div.main>div.title>p{margin-bottom: 30px;text-align: center;}
+div.box>div.main>ul.img{width: 100%;height: 320px;/* background: green; */margin: 0 auto;}
+div.box>div.main>ul.img>li{width: 409px;height: 300px;margin-left: 50px;position: relative;overflow: hidden;}
+/*-webkit-transform:scale(1.1);从中间开始缩放*/
+div.box>div.main>ul.img>li:hover img{-webkit-transform:scale(1.1);}
+div.box>div.main>ul.img>li>a{color: black;}
+div.box>div.main>ul.img>li>a>img{width: 409px;height: 300px;}
+div.box>div.main>ul.img>li>a>p{margin-left: 10px;}
+div.box>div.main>ul.img>li>a>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>ul.img>li>a>h4{margin-left: 10px;}
+div.box>div.main>ul.img>li>a>h4:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>ul.img>li>a>div{width: 409px;height: 300px;background: rgba(18,18,18,0.2);position: absolute;top:0px; left:0px;display: none;}
+div.box>div.main>ul.img>li>a>div>div{width: 280px;height: 220px;border:4px solid #eee;position: absolute;top:30px; left:50px;font-size: 40px;color: #eee;line-height: 220px;text-align:center;font-family: Segoe Script}
+div.box>div.main>ul.text{width: 100%;height: 100px; /* background: pink; */ }
+div.box>div.main>ul.text>li{width: 409px;float: left;position: relative;font-family: 宋体}
+div.box>div.main>ul.text>li>a{color: black;}
+div.box>div.main>ul.text>li>a>p{margin: 15px 60px;display: none;}
+div.box>div.main>ul.text>li>a>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>ul.text>li>a>h4{margin: 15px 60px;display: none;}
+div.box>div.main>ul.text>li>a>h4:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>div.btn{width:208px;height: 50px; /* background: pink; */ margin: 0 auto;}
+ div.box>div.main>div.btn>ul{margin-top: 30px;}
+div.box>div.main>div.btn>ul>li{float: left;width: 30px;height: 30px;margin: 0px;padding: 0px;line-height: 30px;text-align: center;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+div.box>div.main>div.btn>ul>li.one{border-left:1px solid #ccc;border-right:1px solid #ccc;border-radius: 3px 0px 0px 3px;font-size: 10px;}
+div.box>div.main>div.btn>ul>li.two{border-left:1px solid #ccc;border-right:1px solid #ccc;border-radius: 0px 3px 3px 0px;font-size: 10px;}
+div.box>div.main>div.btn>ul>li.three{border-right:1px solid #ccc;}
+div.box>div.main>div.btn>ul>li.four{background:#337AB7}
+div.box>div.main>div.btn>ul>li.four>a{color:white;}
+div.box>div.main>div.btn>ul>li>a{color: #337AB7;display: block;} 

@@ -1,0 +1,13 @@
+*{margin: 0px;padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+div.box>div.main{width: 100%;height: 500px;/*  background: orange; */position: relative;overflow: hidden;}
+div.box>div.main>div.title{width: 100%;height: 150px;/* background: blue; */overflow: hidden;}
+div.box>div.main>div.title>h2{height: 100px;line-height: 100px;text-align: center;margin-top:10px;font-family: 华文行楷;font-size: 40px;}
+div.box>div.main>div.title>p{text-align: center;}
+div.box>div.main>img{width: 350px;margin: 200px 0 0 60px;}
+div.box>div.main>ul{width:700px;position: absolute;right: 80px;top:180px;}
+div.box>div.main>ul>li{height: 40px;line-height: 40px;border-bottom: 1px dashed #ccc;font-family: 仿宋}
+div.box>div.main>ul>li>a{color: black;}
+div.box>div.main>ul>li>a:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>ul>li>span{position: absolute;right: 0px;}

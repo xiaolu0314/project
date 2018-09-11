@@ -1,0 +1,37 @@
+*{margin: 0px;padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+body{background: url(../images/21.jpg) center center;}
+div.box{position: relative;width: 100%;height: 100%;}
+div.box>div.bg{width: 100%;height:580px;background: rgba(255,255,255,0.35);}
+div.box>h1{position: absolute;left: 500px;top:80px;font-weight: normal;font-family: 华文行楷;font-size: 35px;}
+div.box>h1:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>a.btn{width: 100px;height: 30px;line-height:30px;background:#cccccc45;color:#17151570;font-family: 幼圆;text-align: center;font-size: 14px;display: block;position: absolute;left: 0px;top: 0px;}
+div.box>a.btn:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.content{width: 530px;height:300px;position: absolute;left: 280px;top:150px;}
+div.box>div.content>div.register{width: 50px;height: 120px;background:#adadadc7;text-align:center;line-height: 60px}
+div.box>div.content>div.register>a{color:#ffffffe8;}
+div.box>div.content>div.login{width: 50px;height: 120px;background:#ffffff4f;text-align:center;line-height: 60px}
+div.box>div.content>div.login>a{color: black}
+
+div.box>div.content>div.write{width: 530px;height: 330px;background:#ffffff2e;position: absolute;top:0px;left: 50px;display: none;}
+div.box>div.content>div.write>form>input{width: 200px;height: 30px;background:#fff;margin:35px 0px 0px 50px;}
+div.box>div.content>div.write>form>input.sub{width: 50px;height: 30px;background: #333;color: #fff;border-radius: 10px;margin: 30px 0px 0px 80px;}
+div.box>div.content>div.write>form>input.res{width: 50px;height: 30px;background: #333;color: #fff;border-radius: 10px;margin: 30px 10px;}
+
+div.box>div.content>div.write1{width: 700px;height: 330px;background:#ffffff2e;position: absolute;top:0px;left: 50px;}
+div.box>div.content>div.write1>form>input{width: 200px;height: 30px;background:#fff;margin:35px 0px 0px 50px;}
+div.box>div.content>div.write1>form>input.sub{width: 50px;height: 30px;background: #333;color: #fff;border-radius: 10px;margin: 30px 0px 0px 120px;}
+div.box>div.content>div.write1>form>div.other{font-size: 13px;color:#66666691;border-left: 1px solid #666;width: 215px;height: 250px;line-height: 50px;position:absolute;right: 0px;top: 30px;}
+div.box>div.content>div.write1>form>div.other>p{color:black;font-size: 18px;margin-left: 20px}
+div.box>div.content>div.write1>form>div.other>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.content>div.write1>form>div.other>span{margin:0px 10px;color:black;margin-left: 20px}
+div.box>div.content>div.write1>form>div.other>span>a>img.one{width: 30px;height: 30px;position:absolute;top: 60px;left: 120px;}
+div.box>div.content>div.write1>form>div.other>span>a>img.one1{width: 30px;height: 30px;margin-left: 30px;display: none;position: absolute;top: 60px;left: 90px;}
+div.box>div.content>div.write1>form>div.other>span>a>img.two{width: 30px;height: 30px;position:absolute;top: 110px;left: 120px;}
+div.box>div.content>div.write1>form>div.other>span>a>img.two1{width: 30px;height: 30px;margin-left: 30px;display: none;position: absolute;top: 110px;left: 90px;}
+div.box>div.content>div.write1>form>div.other>span>a>img.three{width: 30px;height: 30px;position:absolute;top: 160px;left: 120px;}
+div.box>div.content>div.write1>form>div.other>span>a>img.three1{width: 30px;height: 30px;margin-left: 30px;display: none;position: absolute;top: 160px;left: 90px;}
+
+

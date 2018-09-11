@@ -1,0 +1,13 @@
+*{margin: 0px;padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+div.box>div.main{width: 100%;height: 1100px;/*  background: orange; */position: relative;overflow: hidden;}
+div.box>div.main>div.title{width: 100%;height:180px;/* background: blue; */}
+div.box>div.main>div.title>h2{height: 80px;line-height: 80px;text-align: center;margin-top:30px;font-family: 华文行楷;font-size: 35px;}
+div.box>div.main>div.title>p{text-align: center;}
+div.box>div.main>div.img{width:600px;height: 400px;}
+div.box>div.main>div.img>img{margin-left:40px;display: none;}
+div.box>div.main>iframe{width:550px;height: 400px;position: absolute;top:190px;left: 650px;}
+div.box>div.main>form>input{width:1150px;height: 50px;margin:20px 40px;}
+div.box>div.main>form>textarea{width:1150px;height: 150px;margin:10px 40px;}
+div.box>div.main>form>input.sub{width:1150px;height: 50px;margin:10px 40px;color: #fff;background: #333}

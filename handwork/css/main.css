@@ -1,0 +1,90 @@
+*{margin: 0px;padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+/*网页内容*/
+div.box>div.main{width:100%;height: 2480px;/* background: orange; */margin: 0 auto}
+/*第一部分*/
+div.box>div.main>div.introduce{width: 1200px;height:600px;/*  background: green; */ text-align: center;margin: 0 auto;overflow: hidden;}
+div.box>div.main>div.introduce>div.introduce-img{width: 920px;height:300px;/* background: blue; */margin: 40px auto 0px auto;position: relative;overflow: hidden;}
+div.box>div.main>div.introduce>div.introduce-img>div.introduce-img-1>img{width:450px;height: 300px;position: absolute;top: 0px;left: 0px;}
+div.box>div.main>div.introduce>div.introduce-img>div.introduce-img-1>div{width:225px;height: 300px;background:rgba(0,0,0,0.2);position: absolute;top: 0px;left: -225px;line-height: 300px;font-size: 30px;display: none;font-family: Segoe Script;color: #ccc;}
+div.box>div.main>div.introduce>div.introduce-img>div.introduce-img-1>div>p:hover{background:rgba(0,0,0,0.2);background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>div.introduce>div.introduce-img>div.introduce-img-2{overflow: hidden;}
+div.box>div.main>div.introduce>div.introduce-img>div.introduce-img-2>img{width:450px;height: 300px;position: absolute;top: 0px;left: 470px;}
+div.box>div.main>div.introduce>div.introduce-img>div.introduce-img-2>div{width:225px;height: 300px;background:rgba(0,0,0,0.2);position: absolute;top: 0px;left: 920px;line-height: 300px;font-size: 30px;display: none;font-family: Segoe Script;color: #ccc;}
+div.box>div.main>div.introduce>div.introduce-img>div.introduce-img-2>div>p:hover{background:rgba(0,0,0,0.2);background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>div.introduce>h2{height: 80px;line-height: 80px;margin-top:20px; display: none;font-family: Segoe Script;}
+div.box>div.main>div.introduce>p{height: 28px;line-height: 28px;font-size: 13px;display: none;}
+div.box>div.main>div.introduce>p:hover{font-size:14px;background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+/*第二部分*/
+div.box>div.main>div.bg{width: 100%;height: 300px;background:url(../images/bg.jpg) center center;text-align: center;position: relative;overflow: hidden;}
+div.box>div.main>div.bg:hover{background:url(../images/12.jpg) center center}
+div.box>div.main>div.bg>div{width:100%;height:300px;position: absolute;top:0px;left:0px;background: rgba(18,18,18,0.6);}
+div.box>div.main>div.bg>h2{margin-top:120px;font-family: Segoe Script;} 
+
+/*第三部分*/
+div.box>div.main>div.products1{width: 1200px;height: 830px;/* background: purple; */margin: 0 auto;text-align: center;}
+div.box>div.main>div.products1>div.title{width: 1200px;height: 140px;/* background: blue; */overflow: hidden;}
+div.box>div.main>div.products1>div.title>h2{height:60px;line-height:60px;margin-top:60px;font-family: Segoe Script;}
+
+div.box>div.main>div.products1>div.left{width:400px;height: 614px;/*background: green;*/float: left;margin:50px 0px 0px 40px;position: relative; }
+div.box>div.main>div.products1>div.left>img{width: 100%;}
+div.box>div.main>div.products1>div.left>div{width:400px;height: 614px;background: rgba(18,18,18,0.2);position: absolute;bottom: 0px;left: 0px;display: none;}
+div.box>div.main>div.products1>div.left>div>div{width: 300px;height: 500px;border: 4px solid #eee;margin: 50px 50px;}
+/*第三部分右边上*/
+div.box>div.main>div.products1>div.right{width:700px;height: 600px;/* background: blue; */float: right;margin:50px 40px 0px 0px;  }
+div.box>div.main>div.products1>div.right>div.top{width: 700px;height: 300px;/*  background: pink; */ position: relative; }
+div.box>div.main>div.products1>div.right>div.top>div.top-left{width:330px;height: 300px;/* background: green; */position:absolute;top:0px;left: 0px;}
+div.box>div.main>div.products1>div.right>div.top>div.top-left>img{width: 100%;height: 240px;}
+div.box>div.main>div.products1>div.right>div.top>div.top-left>div{width: 330px;height: 240px;background: rgba(18,18,18,0.2);position:absolute; bottom:60px;left: 0px;display: none;}
+div.box>div.main>div.products1>div.right>div.top>div.top-left>div>div{width: 250px;height: 200px;border: 4px solid #eee;margin: 18px 30px;}
+div.box>div.main>div.products1>div.right>div.top>div.top-left>p{height: 50px;line-height: 50px}
+div.box>div.main>div.products1>div.right>div.top>div.top-left>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>div.products1>div.right>div.top>div.top-right{width:330px;height: 300px;/* background: orange; */position: absolute;top: 0px;left: 350px;}
+div.box>div.main>div.products1>div.right>div.top>div.top-right>img{width: 100%;height: 240px}
+div.box>div.main>div.products1>div.right>div.top>div.top-right>div{width: 330px;height: 240px;background: rgba(18,18,18,0.2);position:absolute; bottom:60px;left: 0px;display: none;}
+div.box>div.main>div.products1>div.right>div.top>div.top-right>div>div{width: 250px;height: 200px;border: 4px solid #eee;margin: 18px 30px;}
+div.box>div.main>div.products1>div.right>div.top>div.top-right>p{height: 50px;line-height: 50px}
+div.box>div.main>div.products1>div.right>div.top>div.top-right>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+/*第三部分右边下*/
+div.box>div.main>div.products1>div.right>div.bottom{width: 700px;height: 300px; position: relative;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-left{width:330px;height: 300px;/* background: green; */position: absolute;top:0px;left: 0px;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-left>img{width: 100%;height: 240px;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-left>div{width: 330px;height: 240px;background: rgba(18,18,18,0.2);position:absolute; bottom:60px;left: 0px;display: none;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-left>div>div{width: 250px;height: 200px;border: 4px solid #eee;margin: 18px 30px;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-left>p{height: 50px;line-height: 50px}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-left>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-right{width:330px;height: 300px;/* background: orange; */position: absolute;top: 0px;left: 350px;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-right>img{width: 100%;height: 240px}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-right>div{width: 330px;height: 240px;background: rgba(18,18,18,0.2);position:absolute;bottom:60px;left: 0px;display: none;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-right>div>div{width: 250px;height: 200px;border: 4px solid #eee;margin: 18px 30px;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-right>p{height: 50px;line-height: 50px;}
+div.box>div.main>div.products1>div.right>div.bottom>div.bottom-right>p:hover{background:linear-gradient(to right,red,orange,green,blue);-webkit-background-clip:text;color:transparent;}
+
+/*第四部分*/
+div.box>div.main>div.products2{width: 1200px;height: 700px; /* background: purple; */ margin: 0 auto;text-align: center;overflow: hidden;}
+div.box>div.main>div.products2>div.title{width: 1200px;height: 150px; /* background: blue;  */overflow: hidden;margin-top:30px; }
+div.box>div.main>div.products2>div.title>h2{height:60px;line-height:60px;margin-top:50px;font-family: Segoe Script;}
+
+div.box>div.main>div.products2>div.left{width:400px;height: 500px;/* background: green; */float: left;margin:30px 0px 0px 40px;position: relative;overflow: hidden;}
+div.box>div.main>div.products2>div.left>img{width: 100%;height: 500px;display: none;}
+div.box>div.main>div.products2>div.left:hover img{width: 420px;height: 520px;}
+div.box>div.main>div.products2>div.left>div{width:200px;height: 300px;border:4px solid #fff;position: absolute;left:130px;top: 80px;display: none;}
+/*第四部分右边上*/
+div.box>div.main>div.products2>div.right{width:700px;height: 500px;/* background: blue;  */float: right;margin:30px 40px 0px 0px;position: relative;}
+div.box>div.main>div.products2>div.right>div.top{width: 700px;height: 250px;/*  background: pink */ position: relative;}
+div.box>div.main>div.products2>div.right>div.top>div.top-left{width: 330px;height: 240px; position: absolute;left: 10px;top: 0px;overflow: hidden;}
+div.box>div.main>div.products2>div.right>div.top>div.top-left>img{width: 100%;height: 240px; display: none;}
+div.box>div.main>div.products2>div.right>div.top>div.top-left:hover img{width: 350px;height: 260px;}
+div.box>div.main>div.products2>div.right>div.top>div.top-right{width: 330px;height: 240px; position: absolute;left: 360px;top:0px;overflow: hidden;}
+div.box>div.main>div.products2>div.right>div.top>div.top-right>img{width: 100%;height: 240px; display: none;}
+div.box>div.main>div.products2>div.right>div.top>div.top-right:hover img{width: 350px;height: 260px;}
+
+div.box>div.main>div.products2>div.right>div.bottom{width: 700px;height: 250px;position: relative;}
+div.box>div.main>div.products2>div.right>div.bottom>div.bottom-left{width: 330px;height: 240px;position: absolute;left: 10px;top:0px;overflow: hidden;}
+div.box>div.main>div.products2>div.right>div.bottom>div.bottom-left>img{width: 100%;height: 240px;overflow: hidden;}
+div.box>div.main>div.products2>div.right>div.bottom>div.bottom-left:hover img{width: 340px;height: 245px;}
+div.box>div.main>div.products2>div.right>div.bottom>div.bottom-right{width: 330px;height: 240px;/* display: none; */position: absolute;left: 360px;top:0px;overflow: hidden;}
+div.box>div.main>div.products2>div.right>div.bottom>div.bottom-right>img{width: 100%;height: 240px;}
+div.box>div.main>div.products2>div.right>div.bottom>div.bottom-right:hover img{width: 350px;height: 260px;}
+
